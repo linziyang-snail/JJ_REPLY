@@ -80,7 +80,7 @@ watchEffect(async () => {
   if (store) {
     try {
       // 確保 URL 是正確的
-      const response = await fetch(`/json/${store.file}`);
+      const response = await fetch(`/JJ_REPLY/json/${store.file}`);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
